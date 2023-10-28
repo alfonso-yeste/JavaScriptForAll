@@ -14,21 +14,22 @@ let no_diferentes = 2 != 2; // (no son diferentes)
 // Ese no soy yo
 const mi_nombre = "alfonso";
 const su_nombre = "manuel";
-let soy_yo = (mi_nombre == su_nombre);
+let soy_yo = (mi_nombre == su_nombre); //false
 
 //Negar la realidad
-console.info("Esto es falso:" +!true);
+console.info("Esto es falso:" +!true); 
 console.info("Esto es verdadero:" +!false);
 
 // También podemos encadenar condiciones
 // ejemplo: si esto y esto
-let ambas_cosas = (3 > 2) && ("a" == "a"); let no_ambas_cosas = (3 > 2) && ("a" != "a");
+let ambas_cosas = (3 > 2) && ("a" == "a"); //true
+let no_ambas_cosas = (3 > 2) && ("a" != "a"); //false
 
 // Si esto o aquello
-let esto_o_lo_otro = (3 > 2) || ("a" != "a");
+let esto_o_lo_otro = (3 > 2) || ("a" != "a"); true
 
 // También podemos negar cosas
-let es_falso = ! true;
-let es_cierto = ! false;
+let es_falso = !true; //false
+let es_cierto = !false;  //false
 
 
