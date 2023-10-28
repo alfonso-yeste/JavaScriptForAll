@@ -11,3 +11,24 @@ let casi_igual = 3 >= 1; //true
 let diferentes = 3 != 1; //true (son diferentes)
 let no_diferentes = 2 != 2; // (no son diferentes)
 
+// Ese no soy yo
+const mi_nombre = "alfonso";
+const su_nombre = "manuel";
+let soy_yo = (mi_nombre == su_nombre);
+
+//Negar la realidad
+console.info("Esto es falso:" +!true);
+console.info("Esto es verdadero:" +!false);
+
+// También podemos encadenar condiciones
+// ejemplo: si esto y esto
+let ambas_cosas = (3 > 2) && ("a" == "a"); let no_ambas_cosas = (3 > 2) && ("a" != "a");
+
+// Si esto o aquello
+let esto_o_lo_otro = (3 > 2) || ("a" != "a");
+
+// También podemos negar cosas
+let es_falso = ! true;
+let es_cierto = ! false;
+
+
