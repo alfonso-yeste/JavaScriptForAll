@@ -13,7 +13,7 @@ let no_diferentes = 2 != 2; // (no son diferentes)
 
 // Ese no soy yo
 const mi_nombre = "alfonso";
-const su_nombre = "manuel";
+const su_nombre = "sergio";
 let soy_yo = (mi_nombre == su_nombre); //false
 
 //Negar la realidad
